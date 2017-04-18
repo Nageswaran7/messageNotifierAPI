@@ -21,7 +21,7 @@ public class APIController {
 	OTPMethods otpm;
 	@Autowired
 	UserDetails user;
-	
+	//Added
 	@RequestMapping(value="/signIn",method=RequestMethod.GET)
 		public String signIn(@RequestParam("email") String email){
 		System.out.println("Generated OTP - "+email);
